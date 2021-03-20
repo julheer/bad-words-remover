@@ -1,5 +1,5 @@
 from discord.ext import commands
-from src.config import languages
+from ..config import languages
 from requests import get
 
 
