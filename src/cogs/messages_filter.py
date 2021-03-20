@@ -1,5 +1,5 @@
 from discord.ext import commands
-from ..config import languages
+from src.config import languages
 from requests import get
 
 
@@ -20,7 +20,6 @@ class MessagesFilter(commands.Cog):
 
             if message.content.lower() in badwords:
                 await message.delete()
-                # You can also add your own actions after deleting messages.
 
         await self.client.process_commands(message)
 
