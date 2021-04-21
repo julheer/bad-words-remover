@@ -1,2 +1,5 @@
+# Discord bot token. (https://discord.com/developers)
 bot_token = ''
-languages = ['ru', 'en']
+
+# List of languages to check.
+languages = ['en']

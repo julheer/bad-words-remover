@@ -1,6 +1,16 @@
-# Bad Words Remover
-A small bot for Discord, which will help filter messages from your server participants, and block them immediately after sending.
+# BadWords
 
-![Python 3.9.1](https://img.shields.io/badge/python-3.9.1-green)
-![Discord.py 1.5.1](https://img.shields.io/badge/discord.py-1.6.0-green)
-![Requests 2.25.0](https://img.shields.io/badge/requests-2.25.1-green)
+A small Discord bot that helps filter your Discord server from bad messages from server members.
+
+### Dependencies
+
+- [discord.py (**^1.7.1**)](https://github.com/Rapptz/discord.py)
+- [requests (**^2.25.1**)](https://github.com/psf/requests)
+
+#### Bot installation
+
+1. Download this repository.
+2. In the configuration, set the token from Discord bot.
+3. Write the command `python app.py` in the console, switching to the `cogs` directory beforehand (`cd cogs`).
+
+© [Julheer](https://github.com/julheer), 2021. Developed with ❤.
